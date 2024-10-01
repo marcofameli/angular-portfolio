@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-portifolio": {
+    "angular-portfolio": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-portifolio",
+            "outputPath": "dist/angular-portfolio",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -26,9 +26,11 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "src/favicon.ico",
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src/assets",
+                "output": "assets"
               }
             ],
             "styles": [
@@ -64,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-portifolio:build:production"
+              "buildTarget": "angular-portfolio:build:production"
             },
             "development": {
-              "buildTarget": "angular-portifolio:build:development"
+              "buildTarget": "angular-portfolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -87,7 +89,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "assets"
               }
             ],
             "styles": [
