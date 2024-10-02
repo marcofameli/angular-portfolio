@@ -4,12 +4,12 @@
   <ul>
     @for (item of arrayProjects(); track item) {
       <li>
-        <button>
+        <button (click)="openDialog(DialogProjectsComponent)">
           <img
-            src=""
-            alt=""
-            width=""
-            height=""
+            [src]="item.src"
+            [alt]="item.alt"
+            [attr.width]="item.width"
+            [attr.height]="item.height"
             loading="lazy"
           />
         </button>

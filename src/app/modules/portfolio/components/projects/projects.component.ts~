@@ -27,7 +27,7 @@ export class ProjectsComponent {
         'está dockerizada para facilitar o uso e a implantação.',
       links: [
         {
-          name: "Ir para o GitHub",
+          name: "GoMovies",
           href: 'https://github.com/marcofameli/go-movies-api',
         }
       ],
@@ -43,7 +43,7 @@ export class ProjectsComponent {
         'gerenciar transações de uma empresa pro cliente',
       links: [
         {
-          name: "Ir para o GitHub",
+          name: "Transactions",
           href: 'https://github.com/marcofameli/API-TransactionsSpring',
         }
       ],
@@ -59,7 +59,7 @@ export class ProjectsComponent {
         'facilitando a integração com diferentes sistemas e aplicações.',
       links: [
         {
-          name: "Ir para o GitHub",
+          name: "GoFullProducts",
           href: 'https://github.com/marcofameli/api-go-full',
         }
       ],

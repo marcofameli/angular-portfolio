@@ -20,7 +20,9 @@
           <a href="/assets/pdf/cv.pdf" target="_blank" class="btn btn-primary">
             Download CV
           </a>
-          <a href="https://www.linkedin.com/in/marcofameli/" target="_blank" class="btn btn-secondary">
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/marcofameli/" target="_blank" class="btn btn-tertiary">
             LinkedIn
           </a>
         </li>
