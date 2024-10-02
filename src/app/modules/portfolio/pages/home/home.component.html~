@@ -3,7 +3,7 @@
   <app-knowledge/>
   <app-experiences/>
   @defer (on viewport) {
-    <app-projects/>
+    <app-projects></app-projects>
   } @placeholder {
     <section>
       <h2>

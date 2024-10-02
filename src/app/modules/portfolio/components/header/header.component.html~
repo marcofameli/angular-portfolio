@@ -1,6 +1,6 @@
 <header>
   <img
-    src="assets/img/marco.jpg"
+    src="/assets/img/marco.jpg"
     alt="Marco Fameli - Foto Perfil"
     width="130"
     height="130"
@@ -13,7 +13,7 @@
   <div class="container">
     <p>Full-Stack Developer | Java | Golang | Angular </p>
     <p>São Paulo, SP</p>
-    <p></p>
+    <p>colocar algo</p>
     <nav>
       <ul>
         <li>
